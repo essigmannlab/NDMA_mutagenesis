@@ -4,7 +4,7 @@
 #
 # Analyze data with PlotSpec functions.
 #
-#
+# B. Fedeles 2021-2022.
 
 import PlotSpec as ps
 import matplotlib as mpl
@@ -14,16 +14,15 @@ import matplotlib.pyplot as plt
 print(ps.pu_muts)
 
 def main():
-    #print("Hello there!")
 
-    #control vars
+    #control vars; switch to True whichever part of the code is needed
 
     individual_spec=True
     process_avg=False
     subtract_bkgr=False   
     
-
-
+    # global vars and paths
+    
     filespath = '../CSVfiles2/'
     picspath = '../Pics3/'
     filesuff1 = '_FINAL_unique.csv'
