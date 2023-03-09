@@ -16,7 +16,6 @@ import matplotlib.pyplot as plt
 print(ps.pu_muts)
 
 def main():
-    #print("Hello there!")
 
     #control vars
 ##    do_bksub=False
